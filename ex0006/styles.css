@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+.formulario{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+header h1{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 16px;
+    color: cornflowerblue;
+    margin-bottom: 8px;
+}
+
+
+input{
+    width: 500px;
+    height: 32px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    padding: 16px;
+    font-size: 16px;
+}
+
+#btn{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    height: 38px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(75, 129, 230);
+}
+
+#voltar p, a{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    height: 38px;
+    width: 150px;
+    background-color: white;
+    padding: 18px 34px;
+    border-radius: 20px;
+}
+
+#saudacao{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 32px;
+}

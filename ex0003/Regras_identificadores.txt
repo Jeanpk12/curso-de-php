@@ -1,0 +1,15 @@
+1 - Variáveis sempre começam com simbolo de cifrão
+2 - O segundo pode ser letra ou o simbolo de underline "_"
+3 - A partir do terceiro caracter é possível utilizar as seguintes letras, simbolo e números [a-z], [A-Z], [0-9], [_]
+4 - Pode-se utilizar variáveis com acentuação (mais isso não é recomendado)
+5 - A linguagem PHP é case-sensitive
+6 - Existem palavras reservadas e não podem ser utilizadas em variáveis
+
+Recomendações ->
+1 -> Os nomes das variáveis devem ser claros e de fácil compreensão
+2 -> Deve-se evitar utilizar nomes de variáveis muito grandes ou muito curtos
+3 -> Deve-se definir um padrão de nomeação e seguilas em todos os projetos
+4 -> Para variáveis, é recomendado que se utilize letras minúsculas
+5 -> para constante, é recomendado que se utilize letras maiusculas
+6 -> é recomendado a utilização de camelCase para métodos e atributos
+7 -> 
